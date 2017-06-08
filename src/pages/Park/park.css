@@ -1,0 +1,76 @@
+.landing-park {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh; /* change later */
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px black;
+}
+
+.landing-dlp {
+  background-image: url('./dlp.jpg');
+}
+
+.landing-dlusa {
+  background-image: url('./dlusa.jpg');
+}
+.landing-dca {
+  background-image: url('./dca.jpg');
+}
+.landing-ak {
+  background-image: url('./ak.jpg');
+}
+.landing-epcot {
+  background-image: url('./epcot.jpg');
+}
+.landing-hk {
+  background-image: url('./hk.jpg');
+}
+.landing-hlyst {
+  background-image: url('./hlyst.jpg');
+}
+.landing-mk {
+  background-image: url('./mk.jpg');
+}
+.landing-sh {
+  background-image: url('./sh.jpg');
+}
+.landing-wdsp {
+  background-image: url('./wdsp.jpg');
+}
+
+.park-meta {
+  /*border: 2px solid red;*/
+  text-align: left;
+  width: 100%;
+  height: 30%;
+  padding: 1em;
+}
+
+.tix-link {
+  color: white;
+  text-decoration: none;
+  background-color: #77c04b;
+  border-radius: 9px;
+  height: 8%;
+  width: 66%;
+  line-height: 50px;
+}
+
+.attractions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.attraction-item {
+  width: 100%;
+  margin: 1em;
+  border-radius: 10px;
+  background-color: #8c9eff;
+}

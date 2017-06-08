@@ -1,0 +1,10 @@
+@media(min-width: 768px) {
+  .park-item {
+    width: 50%;
+  }
+
+  .park {
+    height: 200px;
+  }
+
+}

@@ -1,0 +1,58 @@
+.parks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.park-item {
+  /*flex-grow: 1;*/
+  width: 100%;
+}
+
+.park {
+  color: white;
+  /*background-color: red;*/
+  margin: 1em;
+  border-radius: 10px;
+  /*border: 2px solid green;*/
+  /*width: 100%;*/
+  /*width: 120px;*/
+  /*height: 160px;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 3px 2px black;
+}
+
+.park-bg-dlp {
+  background-image: url('../pages/Park/dlp.jpg');
+}
+
+.park-bg-dlusa {
+  background-image: url('../pages/Park/dlusa.jpg');
+}
+.park-bg-dca {
+  background-image: url('../pages/Park/dca.jpg');
+}
+.park-bg-ak {
+  background-image: url('../pages/Park/ak.jpg');
+}
+.park-bg-epcot {
+  background-image: url('../pages/Park/epcot.jpg');
+}
+.park-bg-hk {
+  background-image: url('../pages/Park/hk.jpg');
+}
+.park-bg-hlyst {
+  background-image: url('../pages/Park/hlyst.jpg');
+}
+.park-bg-mk {
+  background-image: url('../pages/Park/mk.jpg');
+}
+.park-bg-sh {
+  background-image: url('../pages/Park/sh.jpg');
+}
+.park-bg-wdsp {
+  background-image: url('../pages/Park/wdsp.jpg');
+}

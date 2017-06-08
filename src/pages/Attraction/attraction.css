@@ -1,0 +1,11 @@
+.attraction-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px black;
+  color: white;
+}
