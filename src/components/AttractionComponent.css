@@ -1,3 +1,35 @@
 .attraction {
   color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.attraction-name {
+  /*border: 1px solid red;*/
+  width: 100%;
+}
+
+.status {
+  /*border: 1px solid yellow;*/
+  width: 100%;
+}
+
+.attraction-wait {
+  /*border: 1px solid green;*/
+  width: 35%;
+}
+
+
+
+.attraction-fp {
+  /*border: 1px solid orange;*/
+  /*width: 50%;*/
+}
+
+.attraction-sr {
+  width: 100%;
+  /*border: 1px solid white;*/
 }

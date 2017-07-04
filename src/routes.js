@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 
 import App from './components/App';
 import Contact from './pages/Contact/Contact';
+import Guides from './pages/Guides/Guides';
 import NotFound from './pages/NotFound/NotFound';
 import Landing from './pages/Landing/Landing';
 import Park from './pages/Park/Park';
@@ -13,6 +14,7 @@ const Routes = (props) => (
    <Route path="/" component={App}>
        <IndexRoute component={Landing} />
        <Route path="/contact" component={Contact} />
+       <Route path="/guides" component={Guides} />
        <Route path="/park/:id" component={Park} />
        <Route path="/attraction/:id/region/:region" component={Attraction} />
        <Route path="*" component={NotFound} />

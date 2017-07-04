@@ -31,12 +31,14 @@ class Attraction extends Component {
         <header style = {headerStyle} className='attraction-header'>
           <h2>{attractionData.name}</h2>
         </header>
+        <p>
         {description.length === 0 ? <Loading /> : null}
-        {description.indexOf('</') !== -1 ?
+        {description.indexOf('</') !== -1 || description.indexOf('/>') !== -1 ?
          (
            <div dangerouslySetInnerHTML={{__html: description.replace(/(<? *script)/gi, 'illegalscript') }} ></div>
          )
           : description}
+        </p>
       </section>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import axios from 'axios';
-// import logo from './logo.svg';
+
 import Nav from './Nav';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
@@ -10,9 +10,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         {this.props.children}
-        <footer>
-          <span>Copyright MouseParks 2017</span>
-        </footer>
+        <Footer />
       </div>
     );
   }
